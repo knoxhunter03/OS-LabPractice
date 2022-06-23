@@ -1,0 +1,5 @@
+rev<<<"Mangalam" #run in command line directly
+
+OR
+
+echo Mangalam | rev

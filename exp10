@@ -1,0 +1,16 @@
+# Run each command one by one
+cut -f1 employee | sort
+
+cut -f2 employee | sort
+
+cut -f5 employee | sort -r
+
+cut -f4 employee | sort 
+
+cut -f2 employee -d ' ' | grep 'Wills'
+
+cut -f2 employee | grep '^[A]'
+
+cut -f3 employee | grep '[*2]' | cut -f4 employee | grep '[2-5]'
+
+cut -f3 employee | grep '[*1]'
